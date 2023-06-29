@@ -1,0 +1,111 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  position: relative;
+}
+button {
+  background-color: #7f0000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #4c0000;
+  margin: 10px auto 10px;
+}
+button:hover {
+  font-size: 18px;
+  padding: 15px;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+label {
+  font-size: 16px;
+  opacity: 1;
+}
+
+input {
+  border-style: none;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0px auto 13px;
+  font-size: 16px;
+}
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  background-color: #7f0000;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  z-index: 1;
+}
+.logo {
+  margin-left: 10px;
+  padding: 20px;
+  background-image: url("../images/icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  width: 5%;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #ccc;
+  opacity: 0.6;
+  color: black;
+}
+.bg_image {
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  filter: 8px;
+  overflow: scroll;
+}
+.container {
+  background-color: #ccc;
+  opacity: 0.9;
+  width: 25%;
+  margin: 130px auto;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border-radius: 10px;
+}
+#error {
+  color: red;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    background-color: #ccc;
+    opacity: 0.9;
+    width: 250px;
+    margin: 130px auto 30px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+}

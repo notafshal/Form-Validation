@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+  .flex_container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .contact_picture {
+    display: none;
+  }
+  .rounded_card {
+    width: auto;
+    margin-bottom: 25px;
+  }
+  .navbar_mob {
+    flex-direction: row !important;
+  }
+}

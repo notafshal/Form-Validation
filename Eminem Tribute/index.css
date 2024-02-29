@@ -1,0 +1,150 @@
+:root {
+  --primary: #96887a;
+  --secondary: #a47811;
+  --lightprimary: #cec7c7;
+}
+* {
+  margin: 0;
+  font-family: "sRoboto Condensed", sans-serif;
+  color: #fff;
+}
+html,
+body {
+  background-image: url("./images/back.jpg");
+}
+a {
+  text-decoration: none;
+  font-size: 15px;
+}
+input {
+  color: black;
+  border: 0;
+}
+
+.flex_container {
+  display: flex;
+}
+.justifier {
+  justify-content: space-between;
+}
+.divider {
+  height: 2px;
+  max-width: 500px;
+  color: #e7e7e7;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar {
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.logo {
+  padding-top: 5px;
+  padding-left: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  align-items: center;
+}
+.nav_items {
+  padding: 10px;
+  font-size: 13px;
+}
+.main_photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: url("./images/main.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.primary_button {
+  border: 1;
+  background-color: transparent;
+  border-radius: 20%;
+  padding: 2px;
+  transition: all 0.5s;
+}
+.primary_button:hover {
+  padding: 5px;
+}
+
+.topic {
+  flex-direction: column;
+  align-items: center;
+}
+.songs {
+  padding-left: 105px;
+}
+.shift {
+  display: flex;
+  justify-content: space-around;
+}
+.merch_box {
+  margin-top: 20px;
+  margin: 20px;
+  background-color: #e7e7e7;
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+}
+.merch {
+  margin-top: 20px;
+  padding: 20px;
+  height: 150px;
+  width: 150px;
+}
+.photo1 {
+  background-image: url("./images/merch1.jpg");
+  background-position: center;
+  background-size: 100%;
+  border-radius: 20px;
+}
+.photo2 {
+  background-image: url("./images/merch2.jpg");
+  background-position: center;
+  background-size: 100%;
+  border-radius: 20px;
+}
+.photo3 {
+  background-image: url("./images/merch\ 3.jpg");
+  background-position: center;
+  background-size: 100%;
+  border-radius: 20px;
+}
+.photo4 {
+  background-image: url("./images/merch4.jpg");
+  background-position: center;
+  background-size: 100%;
+  border-radius: 20px;
+}
+
+.merch_desc {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.merch_box:hover {
+  background-color: #fff;
+  padding: 40px;
+}
+.merch:hover {
+  padding: 40px;
+}
+.last_photo {
+  height: 300px;
+  width: 300px;
+  background-image: url("./images/last.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.footer {
+  text-align: center;
+  padding: 5px;
+  background-color: var(--lightprimary);
+  color: black;
+}

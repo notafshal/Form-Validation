@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px) {
+  .flex_container {
+    flex-direction: column;
+  }
+  .songs {
+    padding-left: 0px;
+  }
+  .last_photo {
+    display: none;
+  }
+  .navbar_mob {
+    flex-direction: row !important;
+  }
+}
